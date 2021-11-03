@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Angular with Jest sauce</title>
+    <base href="/" />
+  </head>
+  <body>
+    <div class="button-div">
+      <button id="open-btn" [display]="buttonDisplay">Open</button>
+    </div>
+    <div
+      [display]="formDisplay"
+      class="forms-div"
+      style="flex-direction: column; padding: 25px; flex-wrap: wrap"
+    >
+      <input
+        type="text"
+        style="text-align: center"
+        id="name"
+        placeholder="Name"
+      />
+      <input
+        type="email"
+        id="emaiid"
+        placeholder="E-mail"
+        style="margin-top: 15px; text-align: center"
+      />
+      <input
+        type="number"
+        id="rollno"
+        placeholder="Contact number"
+        style="margin-top: 15px; text-align: center"
+      />
+      <button type="button" id="submit-btn" style="margin-top: 15px">
+        Update
+      </button>
+    </div>
+    <div class="forms-diplay-div" style="display: none">
+      <label></label>
+      <label></label>
+      <label></label>
+    </div>
+  </body>
+</html>
